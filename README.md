@@ -63,6 +63,9 @@ docker desktop building nginx server
 > docker-compose logs nginx
 > docker-compose logs postgres
 
+![image](https://github.com/user-attachments/assets/87755f46-cffe-4182-b612-5372891f8b53)
+
+
  
 
 
