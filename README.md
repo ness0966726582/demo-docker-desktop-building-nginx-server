@@ -1,8 +1,26 @@
 # demo
+'''
++--------------------+
+| Docker CLI         |   <==> 用戶輸入指令 (docker run, docker build 等)
++--------------------+
+        |
+        v
++--------------------+
+| Docker Daemon      |   <==> 負責執行 Docker 任務 (啟動容器, 建立網路等)
++--------------------+
+        |
+        +----------------------------+
+        |                            |
+        v                            v
++--------------------+    +--------------------+
+| Docker Images      |    | Docker Containers  |
+| 應用模板 (只讀)      |    | 運行中的實例 (可變)  |
++--------------------+    +--------------------+
+'''
+
 docker desktop building nginx server
 > 啟動DOCKER(完成以下1.下載與安裝)
 > ![image](https://github.com/user-attachments/assets/978344ef-66c2-459d-be29-d829c1f145d6)
-
 
 # 1.install docker desktop下載與安裝：
 - 根據操作系統 (Windows/macOS) 下載 Docker Desktop 並安裝。
@@ -18,11 +36,6 @@ docker desktop building nginx server
   > docker ps
 - 測試應用：
   > http://localhost:8080
+  > ![image](https://github.com/user-attachments/assets/4f87b2c7-85d0-48ae-b3b8-f6f80d5f6df7)
 
-
-
-
-- 啟動 Docker Desktop：檢查右下角 Docker 圖標是否綠色。
-![image](https://github.com/user-attachments/assets/4272978e-3b52-4239-8467-c2c6c2578954)
-
-#  
+#  2. 運行第一個容器:
