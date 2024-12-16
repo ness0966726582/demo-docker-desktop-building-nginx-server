@@ -1,5 +1,5 @@
 # demo
-'''
+---
 +--------------------+
 | Docker CLI         |   <==> 用戶輸入指令 (docker run, docker build 等)
 +--------------------+
@@ -16,7 +16,7 @@
 | Docker Images      |    | Docker Containers  |
 | 應用模板 (只讀)      |    | 運行中的實例 (可變)  |
 +--------------------+    +--------------------+
-'''
+---
 
 docker desktop building nginx server
 > 啟動DOCKER(完成以下1.下載與安裝)
