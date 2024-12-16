@@ -3,7 +3,7 @@
 
 # 啟動Demo的容器指令:
 > cd C:\Users\2019051401\Desktop\demo
-> docker-compose up -d
+docker-compose up -d
 ps.此指令會啟動以下容器：
 - demo_postgres：PostgreSQL 資料庫容器。
 - demo_nginx（或其他 Nginx 容器名稱）：Nginx 伺服器容器。
