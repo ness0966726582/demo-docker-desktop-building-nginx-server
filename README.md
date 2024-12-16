@@ -19,7 +19,6 @@
 ---
 
 docker desktop building nginx server
-> 啟動DOCKER(完成以下1.下載與安裝)
 > ![image](https://github.com/user-attachments/assets/978344ef-66c2-459d-be29-d829c1f145d6)
 
 # 1.install docker desktop下載與安裝：
