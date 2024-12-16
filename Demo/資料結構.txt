@@ -1,0 +1,15 @@
+demo-docker-desktop-building-nginx-server/
+├── Demo/
+│   ├── nginx/                      # Nginx 配置與網頁資料
+│   │   ├── html/                   # 靜態網頁文件
+│   │   │   └── index.html          # 靜態首頁文件
+│   │   ├── conf.d/                 # Nginx 自定義配置
+│   │   │   └── default.conf        # Nginx 伺服器設定檔
+│   ├── db/                         # 資料庫相關文件
+│   │   ├── schema.sql              # 資料表結構定義
+│   │   ├── functions.sql           # 預存函式定義
+│   │   ├── seed_data.sql           # 初始測試資料
+│   │   └── README.md               # 資料庫使用說明文件
+│   └── docker-compose.yml          # Docker Compose 配置檔
+│
+└── 資料結構.txt                     # 資料夾與文件說明文件
