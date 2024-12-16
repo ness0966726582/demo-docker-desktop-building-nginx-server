@@ -65,6 +65,11 @@ docker desktop building nginx server
 
 ![image](https://github.com/user-attachments/assets/87755f46-cffe-4182-b612-5372891f8b53)
 
+# 7.DBEAVER畫面
+![image](https://github.com/user-attachments/assets/92b84856-dbb9-475c-9287-98be124b88d7)
+![image](https://github.com/user-attachments/assets/dd052960-ec4b-4132-8283-6e7df9e5775a)
+
+
 
  
 
