@@ -37,3 +37,5 @@ docker desktop building nginx server
   > ![image](https://github.com/user-attachments/assets/4f87b2c7-85d0-48ae-b3b8-f6f80d5f6df7)
 
 #  2. 運行第一個容器:
+> - Docker進入目前的桌面![image](https://github.com/user-attachments/assets/420d4ae2-6e1f-419b-8502-1cc8b1cae3f1)
+
