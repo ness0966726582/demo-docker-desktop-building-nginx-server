@@ -27,6 +27,8 @@
   - 1.2.2 啟動建立 docker-compose.yml 中定義的所有服務:
     > docker-compose up -d
   > ![image](https://github.com/user-attachments/assets/21280c7a-ed52-45b1-bac3-8277f2b50823)
+  - 1.2.3 本機連線測試
+  > http://localhost:8080/
 
 # 前置作業1~5 (若已完成可跳過)
 - 前置作業1 -> 確保已啟用 WSL 2，並將其設置為預設版本：
