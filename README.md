@@ -51,10 +51,10 @@ docker desktop building nginx server
 > 2.檢查 PostgreSQL：![image](https://github.com/user-attachments/assets/d54954e7-1fc4-4651-936d-9f2df3b148e7)
 
 # 5.停止與清理容器
-> 1.停止
+> - 停止
 > docker-compose down
 
-> 2.清理---->刪除數據卷（如果需要重置 PostgreSQL 數據）：
+> - 清理---->刪除數據卷（如果需要重置 PostgreSQL 數據）：
 > docker volume rm demo_postgres_data
 
 # 6.日常管理
