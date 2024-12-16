@@ -1,3 +1,22 @@
+# 停止所有容器指令:
+> docker stop $(docker ps -q)
+
+# 啟動Demo的容器指令:
+> cd C:\Users\2019051401\Desktop\demo
+> docker-compose up -d
+ps.此指令會啟動以下容器：
+- demo_postgres：PostgreSQL 資料庫容器。
+- demo_nginx（或其他 Nginx 容器名稱）：Nginx 伺服器容器。
+
+# 如需刪除停止的容器指令:
+> docker container prune
+
+
+# 判斷哪些是 Demo 相關的容器指令:
+> docker ps --filter "name=demo"
+
+# 如何將不必要的容器關閉?
+
 ---
 > demo
 +--------------------+
