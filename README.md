@@ -1,4 +1,4 @@
-# 1.容器控制指令
+# 1.容器控制指令(停止/啟動)
 1.1 停止所有容器指令:
 > docker stop $(docker ps -q)
 
@@ -17,14 +17,14 @@
 > ![image](https://github.com/user-attachments/assets/ad7f5be9-f4fc-4fde-a0bf-689977b6814d)
 
 
-# 如需刪除停止的容器指令:
+# 2.容器控制指令(刪除)
+2.1 判斷哪些是 Demo 相關的容器指令:
+> docker ps --filter "name=demo"
+
+2.2 如需刪除停止的容器指令:
 > docker container prune
 
 
-# 判斷哪些是 Demo 相關的容器指令:
-> docker ps --filter "name=demo"
-
-# 如何將不必要的容器關閉?
 
 ---
 > demo
