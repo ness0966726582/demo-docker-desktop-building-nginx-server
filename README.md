@@ -23,7 +23,6 @@ docker desktop building nginx server
 > ![image](https://github.com/user-attachments/assets/978344ef-66c2-459d-be29-d829c1f145d6)
 
 # 1.install docker desktop下載與安裝：
-- 根據操作系統 (Windows/macOS) 下載 Docker Desktop 並安裝。
 > ![image](https://github.com/user-attachments/assets/1d7981a3-a428-4ec0-b7aa-f7575e86583e)
 
 - 確保已啟用 WSL 2，並將其設置為預設版本：
