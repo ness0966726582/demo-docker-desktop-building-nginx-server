@@ -19,15 +19,21 @@
 ---
 # 前置作業
 > 將REPO下載存放桌面 -> 開啟Docker Desktop -> 進行以下指令布建
-- 確保已啟用 WSL 2，並將其設置為預設版本：
+- 放置桌面
+> ![image](https://github.com/user-attachments/assets/7ecda93e-e3fd-4faf-acf1-aa2104073d9b)
+- 啟動Docker(尚未佈建...請先完成"前置作業1~5")
+> ![image](https://github.com/user-attachments/assets/21280c7a-ed52-45b1-bac3-8277f2b50823)
+
+# 前置作業1~5 (若已完成可跳過)
+- 前置作業1 -> 確保已啟用 WSL 2，並將其設置為預設版本：
   > wsl --set-default-version 2
-- Docker 的版本號：
+- 前置作業2 -> Docker 的版本號：
   > docker --version
-- 下載官方的 Nginx 映像並啟動容器：
+- 前置作業3 -> 下載官方的 Nginx 映像並啟動容器：
   > docker run -d -p 8080:80 --name my_nginx nginx
-- 檢查運行狀態：
+- 前置作業4 -> 檢查運行狀態：
   > docker ps
-- 測試應用：
+- 前置作業5 -> 測試應用：
   > http://localhost:8080
   > ![image](https://github.com/user-attachments/assets/4f87b2c7-85d0-48ae-b3b8-f6f80d5f6df7)
 以上完成環境的容器測試..
