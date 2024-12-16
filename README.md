@@ -22,8 +22,10 @@
 - 放置桌面
 > ![image](https://github.com/user-attachments/assets/7ecda93e-e3fd-4faf-acf1-aa2104073d9b)
 - 啟動Docker(尚未佈建...請先完成"前置作業1~5")
-  > 1.2.1 取得路徑:    --> cd C:\Users\2019051401\Desktop\demo
-  > 1.2.2 啟動建立 docker-compose.yml 中定義的所有服務: ----> docker-compose up -d
+  - 1.2.1 取得路徑:
+    > cd C:\Users\2019051401\Desktop\demo
+  - 1.2.2 啟動建立 docker-compose.yml 中定義的所有服務:
+    > docker-compose up -d
   > ![image](https://github.com/user-attachments/assets/21280c7a-ed52-45b1-bac3-8277f2b50823)
 
 # 前置作業1~5 (若已完成可跳過)
