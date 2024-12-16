@@ -52,10 +52,13 @@
 
 
 # 2.容器控制指令(刪除)
-2.1 判斷哪些是 Demo 相關的容器指令:
+2.1 檢查未啟用的容器
+> docker ps -a --filter "status=exited"
+
+2.2 判斷哪些是 Demo 相關的容器指令:
 > docker ps --filter "name=demo"
 
-2.2 如需刪除停止的容器指令:
+2.3 如需刪除停止的容器指令:
 > docker container prune
 
 docker desktop building nginx server
