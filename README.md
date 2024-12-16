@@ -1,7 +1,8 @@
 # 停止所有容器指令:
 > docker stop $(docker ps -q)
 
-# 啟動Demo的容器指令:![image](https://github.com/user-attachments/assets/ad7f5be9-f4fc-4fde-a0bf-689977b6814d)
+# 啟動Demo的容器指令:
+> ![image](https://github.com/user-attachments/assets/ad7f5be9-f4fc-4fde-a0bf-689977b6814d)
 - 1.取得路徑:
 > cd C:\Users\2019051401\Desktop\demo
 - 2.啟動 docker-compose.yml 中定義的所有服務。
