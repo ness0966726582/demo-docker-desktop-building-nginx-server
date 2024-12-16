@@ -36,6 +36,9 @@
 1.1 停止所有容器指令:
 > docker stop $(docker ps -q)
 
+1.1.2 停止並刪除由該 docker-compose.yml 定義的服務:
+> docker-compose down
+
 1.2 啟動Demo的容器指令:
 > ps.此指令會啟動以下容器：
 - 1.demo_postgres：PostgreSQL 資料庫容器。
@@ -66,8 +69,6 @@ docker desktop building nginx server
 
 # 1.install docker desktop下載與安裝：
 > ![image](https://github.com/user-attachments/assets/1d7981a3-a428-4ec0-b7aa-f7575e86583e)
-
-
 
 # 2. 運行第一個容器:
 > - Docker進入目前的桌面![image](https://github.com/user-attachments/assets/420d4ae2-6e1f-419b-8502-1cc8b1cae3f1)
