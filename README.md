@@ -1,20 +1,19 @@
-# 容器控制指令
-- 停止所有容器指令:
+# 1.容器控制指令
+1.1 停止所有容器指令:
 > docker stop $(docker ps -q)
 
-- 啟動Demo的容器指令:
-
+1.2 啟動Demo的容器指令:
 > ps.此指令會啟動以下容器：
 - 1.demo_postgres：PostgreSQL 資料庫容器。
 - 2.demo_nginx（或其他 Nginx 容器名稱）：Nginx 伺服器容器。
 
-1.取得路徑:
+1.2.1 取得路徑:
 > cd C:\Users\2019051401\Desktop\demo
 
-2.啟動 docker-compose.yml 中定義的所有服務: 
+1.2.2 啟動 docker-compose.yml 中定義的所有服務: 
 > docker-compose up -d
 
-3.Docker Desktop畫面
+1.2.3 Docker Desktop畫面
 > ![image](https://github.com/user-attachments/assets/ad7f5be9-f4fc-4fde-a0bf-689977b6814d)
 
 
