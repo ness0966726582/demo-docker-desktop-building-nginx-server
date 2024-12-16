@@ -17,6 +17,8 @@
 | 應用模板 (只讀)     |    | 運行中的實例 (可變)  |
 +--------------------+    +--------------------+
 ---
+
+# draw.io - [link](https://app.diagrams.net/#G19w2MhuQwblC6B3H-8vOK2VIrn9BjTnVE#%7B%22pageId%22%3A%22RFb9TgpoRXTXm36FteC9%22%7D)
 # 前置作業
 > 將REPO下載存放桌面 -> 開啟Docker Desktop -> 進行以下指令布建
 - 放置桌面
