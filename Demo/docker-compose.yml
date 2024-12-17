@@ -6,7 +6,8 @@ services:
     ports:
       - "8080:80" # 將本地 8080 端口映射到容器內的 80 端口
     volumes:
-      - ./nginx/html:/usr/share/nginx/html # 將本地目錄掛載到容器內
+      - ./nginx/html:/usr/share/nginx/html:ro       # 掛載靜態文件，只讀模式
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro         # 掛載自定義 Nginx 配置，只讀模式
     networks:
       - demo_network
 
@@ -14,19 +15,20 @@ services:
     image: postgres:latest
     container_name: demo_postgres
     environment:
-      POSTGRES_USER: demo_user      # 設置 PostgreSQL 用戶名
-      POSTGRES_PASSWORD: demo_pass  # 設置 PostgreSQL 密碼
-      POSTGRES_DB: demo_db          # 設置預設的資料庫名稱
+      POSTGRES_USER: demo_user       # 設置 PostgreSQL 用戶名
+      POSTGRES_PASSWORD: demo_pass   # 設置 PostgreSQL 密碼
+      POSTGRES_DB: demo_db           # 設置預設的資料庫名稱
     ports:
-      - "5432:5432" # 將本地 5432 端口映射到容器內的 5432 端口
+      - "5432:5432"                  # 將本地 5432 端口映射到容器內的 5432 端口
     volumes:
-      - ./nginx/html:/usr/share/nginx/html       # 掛載靜態文件
-      - ./nginx/conf.d:/etc/nginx/conf.d         # 掛載配置目錄
+      - postgres_data:/var/lib/postgresql/data      # 定義數據卷用於持久化資料庫數據
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./db/functions.sql:/docker-entrypoint-initdb.d/02_functions.sql:ro
     networks:
       - demo_network
 
 volumes:
-  postgres_data: # 定義數據卷，用於持久化 PostgreSQL 的數據
+  postgres_data: # 定義一個持久化數據卷
 
 networks:
   demo_network: # 定義自訂的 Docker 網路
