@@ -10,6 +10,6 @@ demo-docker-desktop-building-nginx-server/
 │   │   ├── functions.sql           # 預存函式定義
 │   │   ├── seed_data.sql           # 初始測試資料
 │   │   └── README.md               # 資料庫使用說明文件
-│   └── docker-compose.yml          # Docker Compose 配置檔
+│   └── docker-compose.yml          # Docker Compose 配置檔 nginx、postgreSQL、grafana
 │
 └── 資料結構.txt                     # 資料夾與文件說明文件

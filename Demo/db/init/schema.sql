@@ -11,7 +11,6 @@ CREATE TABLE it_staff (
     status INTEGER NOT NULL,
     CONSTRAINT fk_staff_status
         FOREIGN KEY (status) REFERENCES staff_status(id)
-<<<<<<< HEAD
 );
 
 -- 插入 staff_status 資料表資料
@@ -24,4 +23,4 @@ VALUES
 INSERT INTO public.it_staff(
 	id, full_name, status)
 	VALUES (1, 'Ness Huang', '1');
-);
+
