@@ -19,6 +19,8 @@
 ---
 
 # draw.io - [link](https://app.diagrams.net/#G19w2MhuQwblC6B3H-8vOK2VIrn9BjTnVE#%7B%22pageId%22%3A%22RFb9TgpoRXTXm36FteC9%22%7D)
+![image](https://github.com/user-attachments/assets/6f06a967-0acb-427f-9452-54e7ce9aad2b)
+
 # 前置作業
 > 將REPO下載存放桌面 -> 開啟Docker Desktop -> 進行以下指令布建
 - 放置桌面
